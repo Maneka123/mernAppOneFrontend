@@ -28,7 +28,8 @@ const handleSubmit = (e) => {
 const configuration = {
     method: "post",
     //url: "http://localhost:8082/login",
-    url:"http://mern-app-one-amber.vercel.app/login",
+    //url:"http://mern-app-one-amber.vercel.app/login",
+    url:"https://mern-app-one-omega.vercel.app/login",
     data: {
       email,
       password,

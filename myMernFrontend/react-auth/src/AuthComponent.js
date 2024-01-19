@@ -17,7 +17,8 @@ export default function AuthComponent() {
     // set configurations for the API call here
     const configuration = {
       method: "get",
-      url: "http://localhost:8082/auth-endpoint",
+      //url: "http://localhost:8082/auth-endpoint",
+      url:"https://mern-app-one-omega.vercel.app/auth-endpoint".
       headers: {
         Authorization: `Bearer ${token}`,
       },

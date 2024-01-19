@@ -11,7 +11,8 @@ export default function FreeComponent() {
     // set configurations for the API call here
     const configuration = {
       method: "get",
-      url: "http://localhost:8082/free-endpoint",
+      //url: "http://localhost:8082/free-endpoint",
+      url:"https://mern-app-one-omega.vercel.app/free-endpoint",
     };
 
     // make the API call
