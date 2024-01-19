@@ -22,8 +22,8 @@ export default function Register() {
     const configuration = {
       method: "post",
       //url: "https://nodejs-mongodb-auth-app.herokuapp.com/register",
-      //url:"http://localhost:8082/register",
-      url:"http://mern-app-one-amber.vercel.app/register",
+      url:"http://localhost:8082/register",
+      //url:"http://mern-app-one-amber.vercel.app/register",
       data: {
         email,
         password,
